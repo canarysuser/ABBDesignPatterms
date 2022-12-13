@@ -9,6 +9,7 @@ using System.Data.SqlClient;
 using static System.Console;
 using System.Data;
 using ABB.DesignPatterns.ConsoleApp.Structural;
+using ABB.DesignPatterns.ConsoleApp.Behavioral;
 
 namespace ABB.DesignPatterns.ConsoleApp
 {
@@ -16,7 +17,13 @@ namespace ABB.DesignPatterns.ConsoleApp
     {
         static void Main(string[] args)
         {
-            BridgePattern.Test();
+            StrategyPattern.Test();
+            //System.Linq.Expressions.
+            //CommandPattern.Test();
+            //ProxyPattern.Test();
+           // DecoratorPattern.Test();
+           // CompositePattern.Test();
+            //BridgePattern.Test();
 
             //BuilderPattern.Test();
             //AbstractFactoryInDotNet(); 
