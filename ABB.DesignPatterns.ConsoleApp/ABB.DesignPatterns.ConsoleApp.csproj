@@ -60,6 +60,10 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Notes\Design Patterns Behavioral.pdf" />
+    <None Include="Notes\Design Patterns Creational.pdf" />
+    <None Include="Notes\Design Patterns Overview.pdf" />
+    <None Include="Notes\Design Patterns Structural.pdf" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
