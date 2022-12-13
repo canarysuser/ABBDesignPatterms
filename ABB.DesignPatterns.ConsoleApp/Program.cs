@@ -8,6 +8,7 @@ using System.Data.Common;
 using System.Data.SqlClient;
 using static System.Console;
 using System.Data;
+using ABB.DesignPatterns.ConsoleApp.Structural;
 
 namespace ABB.DesignPatterns.ConsoleApp
 {
@@ -15,13 +16,16 @@ namespace ABB.DesignPatterns.ConsoleApp
     {
         static void Main(string[] args)
         {
+            BridgePattern.Test();
+
             //BuilderPattern.Test();
             //AbstractFactoryInDotNet(); 
             // AbstractFactoryClient.Test();
-            //SingletonPattern.Test();
+           // SingletonPattern.Test();
+            //MyConfigurationReader.Current.PrintAll();
             //var r1 = MyConfigurationReader.Current;
             //r1.Display();
-            PrototypePattern.Test();
+            //PrototypePattern.Test();
         }
         static void AbstractFactoryInDotNet()
         {
